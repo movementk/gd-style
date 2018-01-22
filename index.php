@@ -27,11 +27,31 @@
         <main id="content">
             <div class="visual-slider">
                 <ul>
-                    <li><a href="#" class="silder-1" style="background-image: url(/assets/images/img_slider_01.jpg);"></a></li>
-                    <li><a href="#" class="silder-2" style="background-image: url(/assets/images/img_slider_02.jpg);"></a></li>
-                    <li><a href="#" class="silder-3" style="background-image: url(/assets/images/img_slider_03.jpg);"></a></li>
-                    <li><a href="#" class="silder-4" style="background-image: url(/assets/images/img_slider_04.jpg);"></a></li>
-                    <li><a href="#" class="silder-5" style="background-image: url(/assets/images/img_slider_05.jpg);"></a></li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/img_slider_01.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/img_slider_02.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/img_slider_03.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/img_slider_04.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/img_slider_05.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="container">

@@ -1,3 +1,6 @@
+html {
+  min-width: 1030px; }
+
 body {
   position: relative;
   padding: 0;
@@ -39,6 +42,10 @@ address {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; }
+    #content .visual-slider .bx-wrapper .bx-viewport ul li a .img-responsive {
+      min-width: 1200px;
+      height: 100%;
+      margin: 0 auto; }
   #content .visual-slider .bx-wrapper .bx-controls {
     position: absolute;
     bottom: 25px;
