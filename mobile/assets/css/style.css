@@ -66,12 +66,14 @@ address {
               background-color: #ff3333; }
 #content figure {
   margin-bottom: 40px; }
+  #content figure img {
+    width: 100%; }
 #content .link-list {
   overflow: hidden;
   margin: 0 auto;
   list-style: none;
   border: 1px solid #c9c9c9;
-  margin-bottom: 50px; }
+  margin-bottom: 40px; }
   #content .link-list li {
     float: left;
     width: 50%;
@@ -81,6 +83,10 @@ address {
     border-bottom: 1px solid #c9c9c9; }
     #content .link-list li:nth-of-type(2n + 1) {
       border-right: 1px solid #c9c9c9; }
+    #content .link-list li:nth-of-type(7) {
+      border-bottom: 0; }
+    #content .link-list li:last-child {
+      border-bottom: 0; }
     #content .link-list li a {
       display: block;
       width: 100%;
