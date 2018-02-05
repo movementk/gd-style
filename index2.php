@@ -25,34 +25,36 @@
         
         <!-- Content -->
         <main id="content">
-            <div class="visual-slider">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/images/img_slider_01.jpg" class="img-responsive" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/images/img_slider_02.jpg" class="img-responsive" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/images/img_slider_03.jpg" class="img-responsive" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/images/img_slider_04.jpg" class="img-responsive" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="/assets/images/img_slider_05.jpg" class="img-responsive" alt="">
-                        </a>
-                    </li>
-                </ul>
+            <div class="container">
+                <div class="visual-slider">
+                    <ul>
+                        <li>
+                            <a href="http://gdhomerice.co.kr/shop/" target="_blank">
+                                <img src="/assets/images/img_slider_01.jpg" class="img-responsive" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://blog.naver.com/sshss09" target="_blank">
+                                <img src="/assets/images/img_slider_02.jpg" class="img-responsive" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.partyumansan.com/" target="_blank">
+                                <img src="/assets/images/img_slider_03.jpg" class="img-responsive" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://gdconvention.com/" target="_blank">
+                                <img src="/assets/images/img_slider_04.jpg" class="img-responsive" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://thegracekelly1.com/" target="_blank">
+                                <img src="/assets/images/img_slider_05.jpg" class="img-responsive" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="container">
                 <figure>
@@ -61,42 +63,42 @@
             </div>
             <ul class="link-list">
                 <li>
-                    <a href="#">
+                    <a href="http://gdconvention.com/" target="_blank">
                         <img src="/assets/images/link_img01.jpg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="https://cafe.naver.com/gdpartyhouse" target="_blank">
                         <img src="/assets/images/link_img02.jpg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="http://www.partyumansan.com/" target="_blank">
                         <img src="/assets/images/link_img03.jpg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="http://thegracekelly1.com/" target="_blank">
                         <img src="/assets/images/link_img04.jpg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="http://gdconvention.com/landing/partyum.php" target="_blank">
                         <img src="/assets/images/link_img05.jpg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#none" target="_blank">
                         <!--<img src="/assets/images/link_img06.jpg" alt="">-->
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="http://gdhomerice.co.kr/shop/" target="_blank">
                         <img src="/assets/images/link_img07.jpg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="https://blog.naver.com/sshss09" target="_blank">
                         <img src="/assets/images/link_img08.jpg" alt="">
                     </a>
                 </li>
@@ -126,7 +128,8 @@
             $(document).ready(function(){
                 $('.visual-slider > ul').bxSlider({
                     auto: true,
-                    controls: false
+                    controls: false,
+                    autoHover: true
                 });
             });
         </script>
