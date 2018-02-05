@@ -64,6 +64,50 @@ address {
             background-color: #000; }
             #content .visual-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
               background-color: #ff3333; }
+#content figure {
+  margin-bottom: 40px; }
+#content .link-list {
+  overflow: hidden;
+  margin: 0 auto;
+  list-style: none;
+  border: 1px solid #c9c9c9;
+  margin-bottom: 50px; }
+  #content .link-list li {
+    float: left;
+    width: 50%;
+    height: 60px;
+    padding: 0 10px;
+    border-right: 0;
+    border-bottom: 1px solid #c9c9c9; }
+    #content .link-list li:nth-of-type(2n + 1) {
+      border-right: 1px solid #c9c9c9; }
+    #content .link-list li a {
+      display: block;
+      width: 100%;
+      line-height: 60px;
+      text-align: center; }
+      #content .link-list li a img {
+        display: inline-block; }
+    #content .link-list li:nth-of-type(1) a img {
+      width: 100px; }
+    #content .link-list li:nth-of-type(2) a img {
+      width: 150px; }
+    #content .link-list li:nth-of-type(3) a img {
+      width: 91px; }
+    #content .link-list li:nth-of-type(4) a img {
+      width: 76px; }
+    #content .link-list li:nth-of-type(5) a img {
+      width: 128px; }
+    #content .link-list li:nth-of-type(6) {
+      /*a {
+          img {
+              width: ;
+          }
+      }*/ }
+    #content .link-list li:nth-of-type(7) a img {
+      width: 55px; }
+    #content .link-list li:nth-of-type(8) a img {
+      width: 98px; }
 
 #footer {
   padding: 20px 0;

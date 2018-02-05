@@ -53,6 +53,49 @@
                         </li>
                     </ul>
                 </div>
+                <figure>
+                    <img src="/mobile/assets/images/content_img.jpg" class="img-responsive" alt="">
+                </figure>
+                <ul class="link-list">
+                    <li>
+                        <a href="http://gdconvention.com/" target="_blank">
+                            <img src="/mobile/assets/images/link_img01.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://cafe.naver.com/gdpartyhouse" target="_blank">
+                            <img src="/mobile/assets/images/link_img02.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.partyumansan.com/" target="_blank">
+                            <img src="/mobile/assets/images/link_img03.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://thegracekelly1.com/" target="_blank">
+                            <img src="/mobile/assets/images/link_img04.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://gdconvention.com/landing/partyum.php" target="_blank">
+                            <img src="/mobile/assets/images/link_img05.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+                    <li>
+                        <a href="http://gdhomerice.co.kr/shop/" target="_blank">
+                            <img src="/mobile/assets/images/link_img07.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://blog.naver.com/sshss09" target="_blank">
+                            <img src="/mobile/assets/images/link_img08.jpg" class="img-responsive" alt="">
+                        </a>
+                    </li>
+                </ul>
             </div>
         </main>
         
